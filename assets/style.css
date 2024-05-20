@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .caja {
+    height: 100%;
+  }
+  
+  .caja1 {
+    width: 15%;
+    border-right: 1px solid grey;
+  }
+  
+  .caja2 {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen {
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .parrafoMain {
+    width: 500px;
+    text-align: center;
+  }
+  
+  h1,
+  p {
+    margin: 0px;
+  }
+  
+  h1 {
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .cajaPerfil {
+    border-bottom: 1px solid grey;
+    height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imgPerfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconos i {
+    font-size: 20px;
+    margin: 0 5px;
+    color: grey;
+  }
+  
+  .perfil .nombre {
+    font-weight: bold;
+  }
+  
+  .estado {
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  
+  .cajaBoton {
+    height: 120px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton {
+    border: none;
+    font-size: 18px;
+    padding: 15px 45px;
+    background-color: #a491d2;
+    color: white;
+  }
+  
+  .chat {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 60px;
+  }
+  
+  /* .perfil {
+    margin-left: -30px;
+  }
+  
+  .iconos {
+  }
+  
+  .iconos i {
+    font-size: 20px;
+    margin: 0 5px;
+  } */
+  
